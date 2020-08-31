@@ -21,18 +21,18 @@
 	* tensorflow_gpu-1.9.0-cp36-cp36m-win_amd64.whl
 	* cuda_9.2.148_win10
 	* cudnn-9.2-windows10-x64-v7.6.5.32  
-具体步骤参考[环境搭建](https://github.com/liuwentao1992/HuaweiDIGIX-2020/blob/master/%E9%85%8D%E7%BD%AE.md)
 * 第三方库
 	* h5py  
-	* numpy  
-	* os  
-	* csv  
-	* keras  
-	* tensorflow  
-	* matplotlib.pyplot  
-	* PIL  
-	* shutil  
-	
+	* numpy  
+	* os  
+	* csv  
+	* keras  
+	* tensorflow  
+	* matplotlib.pyplot  
+	* PIL  
+	* shutil    
+具体步骤参考[环境搭建](https://github.com/liuwentao1992/HuaweiDIGIX-2020/blob/master/%E9%85%8D%E7%BD%AE.md)
+
 ### 算法实现逻辑
 * 制作训练验证测试集
 * 构建网络
