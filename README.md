@@ -30,8 +30,9 @@
 	* tensorflow  
 	* matplotlib.pyplot  
 	* PIL  
-	* shutil    
-具体步骤参考[环境搭建](https://github.com/liuwentao1992/HuaweiDIGIX-2020/blob/master/%E9%85%8D%E7%BD%AE.md)
+	* shutil  
+	
+具体步骤移步[环境搭建](https://github.com/liuwentao1992/HuaweiDIGIX-2020/blob/master/%E9%85%8D%E7%BD%AE.md)
 
 ### 算法实现逻辑
 * 制作训练验证测试集
@@ -50,7 +51,8 @@
 ```	
 例如：mist@gpu28.mistgpu-xyz.com -p 41500,   
 host: gpu28.mistgpu-xyz.com  user name: mist  端口号: 41500  
-```
+```  
+
 	* 具体配置参考官网教程[PyCharm连接教程](http://blog.mistgpu.com/2020/04/08/PyCharm%E8%BF%9E%E6%8E%A5%E6%95%99%E7%A8%8B/)
 	* 在pycharm终端Terminal中输入`ssh mist@gpu28.mistgpu-xyz.com -p 41500`连接服务器的终端。
 	* 通过`上传数据集`单独上传训练/验证/测试集/预处理模型的权值压缩包文件，上传的数据挂在根目录下`/data`文件内,
