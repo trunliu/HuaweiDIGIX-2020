@@ -60,6 +60,7 @@
 * 在pycharm终端Terminal中输入`ssh mist@gpu28.mistgpu-xyz.com -p 41500`连接服务器的终端。
 * 通过`上传数据集`单独上传训练/验证/测试集/预处理模型的权值压缩包文件，上传的数据挂在根目录下`/data`文件内,
 	建议不要直接在/data目录下将您压缩的文件进行解压，这样会造成不必要的空间占用，以及文件夹数据获取速度往往会比压缩包获取速度慢.  
+	![1](https://github.com/liuwentao1992/HuaweiDIGIX-2020/blob/master/github%E5%9B%BE%E7%89%87/train_test_validation.png)
 	* `cd ~`在~目录下创建一个工作目录`mkdir work`
 	* 使用命令`rsync --progress train.zip ~/work`拷贝大文件到`~/work`目录下
 	* 解压文件`unzip train.zip`
