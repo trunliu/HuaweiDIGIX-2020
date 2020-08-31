@@ -48,10 +48,13 @@
 * 用PyCharmy远程连接服务器同步代码进行调试  
 	* 进入`控制台`，`创建服务器`，`设置服务器密码`  
 	* 根据服务区列表的ssh命令，获取`host`,`user name`,`端口号` 来配置pycharm的ssh服务器    
+
 ```	
 例如：mist@gpu28.mistgpu-xyz.com -p 41500,   
-host: gpu28.mistgpu-xyz.com  user name: mist  端口号: 41500  
-```  
+[host]: gpu28.mistgpu-xyz.com  
+[user name]: mist  
+[端口号]: 41500  
+```   
 
 	* 具体配置参考官网教程[PyCharm连接教程](http://blog.mistgpu.com/2020/04/08/PyCharm%E8%BF%9E%E6%8E%A5%E6%95%99%E7%A8%8B/)
 	* 在pycharm终端Terminal中输入`ssh mist@gpu28.mistgpu-xyz.com -p 41500`连接服务器的终端。
