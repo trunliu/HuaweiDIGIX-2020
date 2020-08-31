@@ -43,3 +43,41 @@
 * 检索查询输出结果
 
 ### 运行调试
+由于我的电脑显卡仅6G，因此我使用的是深度学习雾计算平台[MistGPU](https://mistgpu.com/)加速深度学习模型训练
+* 用PyCharmy远程连接服务器同步代码进行调试  
+	* 进入`控制台`，`创建服务器`，`设置服务器密码`  
+	* 根据服务区列表的ssh命令，获取`host`,`user name`,`端口号` 来配置pycharm的ssh服务器    
+```	
+例如：mist@gpu28.mistgpu-xyz.com -p 41500,   
+host: gpu28.mistgpu-xyz.com  user name: mist  端口号: 41500  
+```
+	* 具体配置参考官网教程[PyCharm连接教程](http://blog.mistgpu.com/2020/04/08/PyCharm%E8%BF%9E%E6%8E%A5%E6%95%99%E7%A8%8B/)
+	* 在pycharm终端Terminal中输入`ssh mist@gpu28.mistgpu-xyz.com -p 41500`连接服务器的终端。
+	* 通过`上传数据集`单独上传训练/验证/测试集/预处理模型的权值压缩包文件，上传的数据挂在根目录下`/data`文件内,
+	建议不要直接在/data目录下将您压缩的文件进行解压，这样会造成不必要的空间占用，以及文件夹数据获取速度往往会比压缩包获取速度慢.  
+		* `cd ~`在~目录下创建一个工作目录`mkdir work`
+		* 使用命令`rsync --progress train.zip ~/work`拷贝大文件到`~/work`目录下
+		* 解压文件`unzip train.zip`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
