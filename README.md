@@ -36,7 +36,7 @@
 	* matplotlib.pyplot  
 	* PIL  
 	* shutil  
-* 具体步骤移步[环境搭建](https://github.com/liuwentao1992/HuaweiDIGIX-2020/blob/master/%E9%85%8D%E7%BD%AE.md)
+* 具体步骤移步[环境搭建](https://github.com/liuwentao1992/HuaweiDIGIX-2020/blob/master/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md)
 
 算法实现逻辑
 ==============
